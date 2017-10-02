@@ -1,0 +1,42 @@
+/**
+ * Shingeki no kiojin_web
+ */
+html {
+	background: red;
+	background: linear-gradient(45deg, red, black);
+	min-height: 100%;
+}
+.holi {
+	text-align: center;
+}
+.holi h1 {
+	padding: 30px;
+	color: yellow;
+	font-family: arial;
+}
+.holi img{
+	margin-bottom:40px;
+}
+/**
+ * css per a convertir la llista esta, en un menú.
+ */
+.menu li a {
+	display: block;    
+	color: white;    
+	text-align: center;    
+	padding: 16px;    
+	text-decoration: none;
+}
+.menu li a:hover{
+	 background-color: #111111;
+}
+.menu ul {    
+	list-style-type: none;    
+	margin: 0;    
+	padding: 0;    
+	overflow: hidden;    
+	background-color: #333333;
+}
+.menu li {
+	float: left;
+}
